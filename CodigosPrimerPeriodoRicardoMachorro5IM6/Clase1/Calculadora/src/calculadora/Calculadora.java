@@ -1,7 +1,9 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ **************************************************************************
+Creador:Ricardo Alberto Machorro Vences 
+Grupo:5IM6
+Boleta:2016090386
+****************************************************************************
  */
 package calculadora;
 import java.util.Scanner;

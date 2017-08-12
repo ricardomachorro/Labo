@@ -1,11 +1,11 @@
-
-package p1c1c1;
-
-/**
- *
- * @author Ricardo Alberto Machorro Vences
- * Grupo:5IM6
+/*
+ **************************************************************************
+Creador:Ricardo Alberto Machorro Vences 
+Grupo:5IM6
+Boleta:2016090386
+****************************************************************************
  */
+package p1c1c1;
 public class P1C1C1 {
 
     /**

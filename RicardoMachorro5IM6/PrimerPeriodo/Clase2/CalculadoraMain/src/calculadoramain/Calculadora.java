@@ -2,6 +2,11 @@
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
+ @author:  emmanuel 
+ * @version:  2.0 
+ * @date: 06-07-2015
+ @autor:Ricardo Alberto Machorro Vences y Raul Daniel Rojas Santaigo 5IM6
+ //15/08/2017-Modificado para tener las operaciones raiz, potencia,seno,coseno y tangente
  */
 package calculadoramain;
 
@@ -83,6 +88,9 @@ public class Calculadora extends JFrame {
 		nuevoBotonOperacion("-");
 		nuevoBotonOperacion("*");
 		nuevoBotonOperacion("/");
+		/**
+		@see Elementos modificados por los alumnos
+		*/
                 nuevoBotonOperacion("raiz");
                 nuevoBotonOperacion("^n");
                 nuevoBotonOperacion("sen");
@@ -190,6 +198,9 @@ public class Calculadora extends JFrame {
 		} else if (operacion.equals("/")) {
 			resultado /= new Double(pantalla.getText());
 		} else if (operacion.equals("*")) {
+	         /**
+		 @see Elemntos modificados por los alumnos
+		 */
 			resultado *= new Double(pantalla.getText());
 		}else if(operacion.equals("^n")){
                     resultado=new Double(Math.pow(resultado,Double.parseDouble(pantalla.getText())));

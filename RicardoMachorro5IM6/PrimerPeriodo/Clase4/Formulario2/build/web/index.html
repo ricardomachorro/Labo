@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!--
+@author:  Ricardo Alberto Machorro Vences, Raúl Daniel Rojas Santiago
+@version:  1.0 
+@date: 22-08-2017
+-->
+<html>
+    <head>
+        <title>Registro Datos</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href=Css/form1.css type='text/css' rel='stylesheet'>
+    </head>
+    <body class="cuerpo">
+        <script>
+            function soloLetras(e){
+                key = e.keyCode || e.which;
+                tecla = String.fromCharCode(key).toLowerCase();
+                letras = " áéíóúabcdefghijklmnñopqrstuvwxyz";
+                especiales = "8-37-39-46";
+
+                tecla_especial = false
+                for(var i in especiales){
+                     if(key == especiales[i]){
+                         tecla_especial = true;
+                         break;
+                     }
+                 }
+
+                 if(letras.indexOf(tecla)==-1 && !tecla_especial){
+                     return false;
+                 }
+             }
+        </script>
+        <header><h1 align="center" id="title">Formulario</h1></header>
+        <br>
+        <div  class="normal">
+            <div align="center" class="info">Informacion</div>
+            <div class="centro">
+        <form method="post" action="entrada.jsp">
+            Nombre <input type="text"  name="nombre" class="entrada" onkeypress="return soloLetras(event)" required/><br><br>
+            Apellido paterno<input class="entrada" type="text" name="apellidop" onkeypress="return soloLetras(event)" required/><br><br>
+            Apellido materno<input class="entrada" type="text" name="apellidom" onkeypress="return soloLetras(event)" required/><br><br>
+            Escuela<input type="text" class="entrada" name="escuela" required/><br><br>
+            <input type="submit"  class="btn" name="Ingresar" value="Ingresar">
+        </form>
+            </div>
+        </div>
+    </body>
+</html>
+

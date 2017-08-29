@@ -1,4 +1,8 @@
-
+/*
+@author:  Ricardo Alberto Machorro Vences, Raúl Daniel Rojas Santiago
+@version:  1.0 
+@date: 22-08-2017
+*/
 package tcpjava;
 
 import java.awt.*;

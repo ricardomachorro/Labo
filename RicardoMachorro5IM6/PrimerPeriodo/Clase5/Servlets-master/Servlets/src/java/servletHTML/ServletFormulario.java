@@ -1,9 +1,10 @@
 package servletHTML;
 
-/**
- *
- * @author EMMANUEL
- */
+/*
+@author:  Ricardo Alberto Machorro Vences, Raúl Daniel Rojas Santiago
+@version:  1.0 
+@date: 22-08-2017
+*/
 import javax.servlet.*;
 import javax.servlet.http.*;
 import java.io.*;

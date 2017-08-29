@@ -1,8 +1,8 @@
-<%-- 
-    Document   : TCP
-    Created on : 22-ago-2017, 20:50:33
-    Author     : Ricardo
---%>
+<!--
+@author:  Ricardo Alberto Machorro Vences, Raúl Daniel Rojas Santiago
+@version:  1.0 
+@date: 22-08-2017
+-->
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>

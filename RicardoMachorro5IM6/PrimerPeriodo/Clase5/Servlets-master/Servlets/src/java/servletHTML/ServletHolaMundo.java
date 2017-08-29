@@ -1,5 +1,11 @@
  //Primer   Servlet.
 //Muy   sencillo.
+
+/*
+@author:  Ricardo Alberto Machorro Vences, Raúl Daniel Rojas Santiago
+@version:  1.0 
+@date: 22-08-2017
+*/
 package servletHTML;
 
 import java.io.*;

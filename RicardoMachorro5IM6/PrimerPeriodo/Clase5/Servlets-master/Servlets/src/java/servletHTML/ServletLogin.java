@@ -1,9 +1,10 @@
 package servletHTML;
 
-/**
- *
- * @author EMMANUEL
- */
+/*
+@author:  Ricardo Alberto Machorro Vences, Raúl Daniel Rojas Santiago
+@version:  1.0 
+@date: 22-08-2017
+*/
 import java.io.IOException;
 import java.io.PrintWriter;
 
